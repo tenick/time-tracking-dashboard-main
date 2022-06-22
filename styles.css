@@ -15,7 +15,7 @@ body {
 
 .container {
     display: grid;
-    margin: 100px auto;
+    margin: 20vh auto;
     max-width: 1440px;
 
     grid-template-columns: 1fr 1fr 1fr 1fr;

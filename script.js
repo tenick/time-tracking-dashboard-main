@@ -165,7 +165,6 @@ if (currentTimeFrame == null) // default value
 for (let timePeriod of timePeriods){
     if (timePeriod.innerText.toLowerCase() == currentTimeFrame){
         timePeriod.click();
-        console.log(currentTimeFrame);
         break;
     }
 }
