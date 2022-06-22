@@ -11,7 +11,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; color: white; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
@@ -21,13 +21,18 @@
 
     <div class="card">
       <div class="profile-front">
-        <img class="profile-img" src="./images/image-jeremy.png" alt="">
-        <p class="profile-report-subtitle">Report For</p>
-        <p class="profile-name">Jeremy Robson</p>
+        <div class="profile-img-container">
+          <img class="profile-img" src="./images/image-jeremy.png" alt="">
+        </div>
+        <div class="profile-report-texts">
+          <p class="profile-report-subtitle">Report For</p>
+          <p class="profile-name">Jeremy Robson</p>
+        </div>
+        
       </div>
       <div class="profile-back">
-        <p class="time-period active">Daily</p>
-        <p class="time-period">Weekly</p>
+        <p class="time-period">Daily</p>
+        <p class="time-period active ">Weekly</p>
         <p class="time-period">Monthly</p>
       </div>
     </div>
@@ -38,15 +43,16 @@
           <p>Work</p>
           <img src="./images/icon-ellipsis.svg" alt="">
         </header>
-        <p class="card-hrs">
-          32hrs
-        </p>
-        <p class="card-prev-hrs">
-          Last Week - 36hrs
-        </p>
+        <div class="card-body">
+          <p class="card-hrs">
+            32hrs
+          </p>
+          <p class="card-prev-hrs">
+            Last Week - 36hrs
+          </p>
+        </div>
       </div>
       <div class="back work">
-
       </div>
     </div>
     <div class="card">
@@ -55,12 +61,14 @@
           <p>Play</p>
           <img src="./images/icon-ellipsis.svg" alt="">
         </header>
-        <p class="card-hrs">
-          10hrs
-        </p>
-        <p class="card-prev-hrs">
-          Last Week - 8hrs
-        </p>
+        <div class="card-body">
+          <p class="card-hrs">
+            10hrs
+          </p>
+          <p class="card-prev-hrs">
+            Last Week - 8hrs
+          </p>
+        </div>
       </div>
       <div class="back play">
       </div>
@@ -71,12 +79,14 @@
           <p>Study</p>
           <img src="./images/icon-ellipsis.svg" alt="">
         </header>
-        <p class="card-hrs">
-          4hrs
-        </p>
-        <p class="card-prev-hrs">
-          Last Week - 7hrs
-        </p>
+        <div class="card-body">
+          <p class="card-hrs">
+            4hrs
+          </p>
+          <p class="card-prev-hrs">
+            Last Week - 7hrs
+          </p>
+        </div>
       </div>
       <div class="back study">
       </div>
@@ -87,12 +97,14 @@
           <p>Exercise</p>
           <img src="./images/icon-ellipsis.svg" alt="">
         </header>
-        <p class="card-hrs">
-          4hrs
-        </p>
-        <p class="card-prev-hrs">
-          Last Week - 5hrs
-        </p>
+        <div class="card-body">
+          <p class="card-hrs">
+            4hrs
+          </p>
+          <p class="card-prev-hrs">
+            Last Week - 5hrs
+          </p>
+        </div>
       </div>
       <div class="back exercise">
       </div>
@@ -103,12 +115,14 @@
           <p>Social</p>
           <img src="./images/icon-ellipsis.svg" alt="">
         </header>
-        <p class="card-hrs">
-          5hrs
-        </p>
-        <p class="card-prev-hrs">
-          Last Week - 10hrs
-        </p>
+        <div class="card-body">
+          <p class="card-hrs">
+            5hrs
+          </p>
+          <p class="card-prev-hrs">
+            Last Week - 10hrs
+          </p>
+        </div>
       </div>
       <div class="back social">
 
@@ -120,12 +134,14 @@
           <p>Self Care</p>
           <img src="./images/icon-ellipsis.svg" alt="">
         </header>
-        <p class="card-hrs">
-          2hrs
-        </p>
-        <p class="card-prev-hrs">
-          Last Week - 2hrs
-        </p>
+        <div class="card-body">
+          <p class="card-hrs">
+            2hrs
+          </p>
+          <p class="card-prev-hrs">
+            Last Week - 2hrs
+          </p>
+        </div>
       </div>
       <div class="back self-care">
 
@@ -133,66 +149,10 @@
     </div>
   </div>
 
-
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
+  <script src="./script.js"></script>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/tenick/time-tracking-dashboard-main" target="_blank">Kenneth Usares</a>.
   </div>
 </body>
 </html>
