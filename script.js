@@ -148,7 +148,24 @@ function timePeriodClicked() {
             cardHrs.innerText = newHrs;
             cardPrevHrs.innerText = newPrevHrs;
         }
+
+        // update state
+        localStorage.setItem("currentTimeFrame", newTimeFrame);
     }
     
 }
 
+
+// get states in local storage, set initial page based on stored states
+let currentTimeFrame = localStorage.getItem("currentTimeFrame");
+if (currentTimeFrame == null) // default value
+    localStorage.setItem("currentTimeFrame", 'weekly');
+
+
+for (let timePeriod of timePeriods){
+    if (timePeriod.innerText.toLowerCase() == currentTimeFrame){
+        timePeriod.click();
+        console.log(currentTimeFrame);
+        break;
+    }
+}
