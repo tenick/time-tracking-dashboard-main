@@ -1,5 +1,6 @@
 # Frontend Mentor - Time tracking dashboard solution
 
+Just some quick challenge to refresh grid and flexbox concepts.
 This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
@@ -27,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/desktop-and-mobile-friendly-time-tracking-dashboard-html-css-and-js-y2LyI26Yg8)
-- Live Site URL: [Add live site URL here](https://tenick.github.io/time-tracking-dashboard-main/)
+- [Solution URL](https://www.frontendmentor.io/solutions/desktop-and-mobile-friendly-time-tracking-dashboard-html-css-and-js-y2LyI26Yg8)
+- [Live Site URL](https://tenick.github.io/time-tracking-dashboard-main/)
 
 ### Useful resources
 
